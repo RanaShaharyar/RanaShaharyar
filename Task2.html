@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculater</title>
+    <link rel="stylesheet" href="/QuizTask2/styel.css">
+    <script src="/QuizTask2/script.js"></script>
+</head>
+<body>
+    <div align="center">
+        <div class="main">
+            <table id="tab1">
+                <tr>
+                    <td><strong>Enter The Number Of Courses:</strong></td>
+                    <td><Input type="number" min="1" max="10" id="Cou"></Input></td>
+                    <td><button id="insCou" onclick="NumberOfCourse()">Enter</button></td>
+                </tr>
+            </table>
+        </div>
+        <table id="tab" style="display: none;">
+            <thead>
+                <tr>
+                    <td>Subject</td>
+                    <td>Credit/Hours</td>
+                    <td>Obtain Marks</td>
+                </tr>
+            </thead>
+            <tbody id="tb">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><button id="cal" onclick="calculate()">Calculate_GPA</button></td>
+                    <td colspan="2" id="reset" onclick="reset()"><button>Reset</button></td>
+                </tr>
+                <tr id="dis" style="display: none;">
+                   <td>Total GPA</td> 
+                   <td colspan="2" id="res"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
