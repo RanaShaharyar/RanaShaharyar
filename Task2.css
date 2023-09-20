@@ -1,0 +1,48 @@
+        body
+        {
+            background-color: gainsboro;
+        }
+        input{
+          width: fit-content;
+          border-radius: 5px;
+          font-size: 20px;
+          margin: 2px;
+        }
+        #btn,#insCou
+        {
+          width: 100px;
+          margin: 2px;
+          border-radius: 5px;
+          font-size: 20px;
+          background-color: white;
+        }
+        #dis,thead
+        {
+            font-size: 18px;
+        }
+        #tab,#tab1
+        {
+          margin-top: 20px;
+          border: 1px solid black;
+          border-radius: 5px;  
+        }
+        td
+        {
+          padding: 4px;
+          text-align: center;
+        }
+        tfoot,thead{
+        background-color: #b4eded;
+        }
+        tbody tr:nth-child(odd) {
+        background-color: #daf4f4;
+        }
+        tbody{
+            background-color: #e9f9f9c1;
+}
+tfoot button{
+       width:100%;
+       font-size: 20px;
+       background-color: white;
+       border-radius: 5px;
+}
