@@ -1,0 +1,46 @@
+        body
+        {
+            background-color: gainsboro;
+        }
+       .main
+        {
+            width: fit-content;
+            border: 2px solid black;
+        }
+        input{
+            width: 200px;
+            border-radius: 5px;
+          font-size: 20px;
+          margin: 2px;
+        }
+        #btn
+        {
+          width: 100px;
+          margin: 2px;
+          border-radius: 5px;
+          font-size: 20px;
+        }
+        p
+        {
+            color: red;
+            font-size: 12px;
+            padding: 0px;
+        }
+        #tab
+        {
+          
+          margin-top: 20px;
+          border: 1px solid black;
+          border-radius: 5px;  
+        }
+        td
+        {
+          padding: 4px;
+          text-align: center;
+        }
+        thead{
+        background-color: #c7ecec;
+        }
+        tbody tr:nth-child(odd) {
+        background-color: #D6EEEE;
+}
